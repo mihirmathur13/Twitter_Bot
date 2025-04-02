@@ -2,25 +2,22 @@ import tweepy
 import tkinter as tk
 
 # API Key
-
-# AS2c3h8yYDtz1HaIIACu3WIg6
+# ********************
 
 # API Key Secret
-
-# LV8rkXyEuof4fAp6RJmJVdUDoxH7xRyOrZ40U8CXvYPQ3ksb6b
+# ******************************
 
 # Access Token
-
-# 1903903877172494336-OSROldEGq1lRwcaUaeGXPrxua3r1Aa
+# **************************************************
 
 # Access Token Secret
+# ********************************
 
-# ye4zKMPASxjsm9zxLI0yiJeS65nCNUAidr6kss4LRj539
+consumer_key = '********************'
+consumer_secret = '******************************'
+access_token = '**************************************************'
+access_token_secret = '********************************'
 
-consumer_key = 'AS2c3h8yYDtz1HaIIACu3WIg6'
-consumer_secret = 'LV8rkXyEuof4fAp6RJmJVdUDoxH7xRyOrZ40U8CXvYPQ3ksb6b'
-access_token = '1903903877172494336-OSROldEGq1lRwcaUaeGXPrxua3r1Aa'
-access_token_secret = 'ye4zKMPASxjsm9zxLI0yiJeS65nCNUAidr6kss4LRj539'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
